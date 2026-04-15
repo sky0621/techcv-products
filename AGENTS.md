@@ -4,13 +4,15 @@
 - These instructions apply to the entire repository unless a deeper `AGENTS.md` overrides them.
 
 ## Repository Overview
-- This repository is currently minimal and only contains top-level project metadata such as `README.md` and `LICENSE`.
-- Prefer keeping the structure simple until the project grows and clearer conventions emerge.
+- This repository aggregates `techcv-*` repositories as Git submodules.
+- Top-level files should mainly document and manage the submodule layout.
+- Source code for each product lives inside its own submodule and keeps its own conventions.
 
 ## Working Rules
 - Make focused, minimal changes that match the user request.
-- Avoid introducing new tools, frameworks, or directory structures unless the user asks for them.
-- When adding files, choose clear names and keep the layout easy to understand from the repository root.
+- Avoid introducing top-level tools, frameworks, or extra structure unless the user asks for them.
+- Prefer adding each `techcv-*` repository as a Git submodule at the repository root.
+- Keep submodule directory names aligned with repository names unless the user requests otherwise.
 - Update `README.md` when a change affects setup, usage, or repository structure.
 
 ## Style
@@ -23,4 +25,5 @@
 - If no runnable checks exist yet, state that clearly in the handoff instead of inventing process.
 
 ## Notes for Future Contributors
-- If this repository gains application code, add more specific `AGENTS.md` files in subdirectories where distinct conventions are needed.
+- Do not modify files inside a submodule unless the user explicitly asks for work in that submodule.
+- Add more specific `AGENTS.md` files only when repository-level rules are no longer enough.
