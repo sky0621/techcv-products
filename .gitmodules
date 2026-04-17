@@ -1,3 +1,6 @@
 [submodule "techcv-design"]
 	path = techcv-design
 	url = https://github.com/sky0621/techcv-design.git
+[submodule "techcv-app"]
+	path = techcv-app
+	url = https://github.com/sky0621/techcv-app.git
