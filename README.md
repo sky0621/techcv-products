@@ -4,6 +4,7 @@
 
 ## Current submodules
 
+- `techcv-app`
 - `techcv-design`
 
 ## Clone
