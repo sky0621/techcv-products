@@ -15,6 +15,13 @@
 - Keep submodule directory names aligned with repository names unless the user requests otherwise.
 - Update `README.md` when a change affects setup, usage, or repository structure.
 
+## Local Codex Skills
+- Project-local Codex skills live under `.codex/skills`.
+- When a task clearly matches a local skill, read that skill's `SKILL.md` and follow it for that turn.
+- Use `go-best-practices` when reading, reviewing, refactoring, or writing `.go` files or `go.mod`.
+- Keep local skills small and task-focused. Prefer repository-specific guidance over generic boilerplate.
+- Do not move local skills into submodules unless the user explicitly asks for that layout.
+
 ## Style
 - Follow existing naming and formatting patterns when they exist.
 - Prefer straightforward implementations over clever abstractions.

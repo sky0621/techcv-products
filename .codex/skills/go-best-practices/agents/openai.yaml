@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Best Practices"
+  short_description: "Review and edit Go code with idiomatic, conservative patterns"
+  default_prompt: "Use $go-best-practices to review or edit Go files with idiomatic, maintainable, project-consistent patterns."
